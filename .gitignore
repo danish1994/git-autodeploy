@@ -1,0 +1,46 @@
+###########################
+#WebStorm Project Files
+###########################
+.idea/
+*ipr
+*.iml
+*.rdb
+
+
+###########################
+#NPM Files
+###########################
+node_modules
+npm-debug.log
+uploads
+
+
+###########################
+#Temp Dirs
+###########################
+.files
+.build
+.bowerCache
+.temp
+.tmp
+.sass-cache
+web-app/.bowerTemp
+
+###########################
+#Working Dirs
+###########################
+web-app/js/includes
+web-app/css/includes
+
+###########################
+#Angular UI files
+###########################
+web-app/dist
+web-app/dev/bower_components
+
+###########################
+#Misc files
+###########################
+*.crash
+*.log
+.DS_Store

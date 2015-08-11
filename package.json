@@ -1,0 +1,19 @@
+{
+  "name": "git-reload",
+  "version": "1.0.0",
+  "description": "Reloads server on push to desired branch",
+  "main": "app.js",
+  "start": "nohup node app &",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kushal Likhi <kushal.likhi@gmail.com>",
+  "license": "GPLv3",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.0.3",
+    "hapi": "^7.1.1",
+    "public-address": "^0.1.1",
+    "qrcode-terminal": "^0.9.5"
+  }
+}
